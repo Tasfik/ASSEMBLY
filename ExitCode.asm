@@ -1,0 +1,17 @@
+.MODEL SMALL
+.STACK 100H
+.DATA
+.CODE
+
+MAIN PROC
+       
+    ;ALL YOU CODE GOES IN THIS SEGMENT
+      
+    ;THIS BELOW BLOCK OF CODE
+    ;EXISTS TO YOUR OS   
+    
+    EXIT:                      
+    MOV AH,4CH
+    INT 21H
+    MAIN ENDP
+END MAIN
