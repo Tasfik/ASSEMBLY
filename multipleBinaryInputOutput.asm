@@ -2,6 +2,7 @@
 .STACK 200H
 .DATA
 .CODE
+
 MAIN PROC
     
     XOR BX,BX
